@@ -65,11 +65,7 @@ export default function Counter(props) {
   const style = {
     fontSize: '1.5em',
     marginBottom: '0.3em',
-    // if(count % 2 === 0){
-    //   color: 'royalblue',
-    // }else{
-    //   color: 'crimson',
-    // }
+    color:((count % 2 == 0) ? "royalblue" : "crimson")
   };
 
   return (
